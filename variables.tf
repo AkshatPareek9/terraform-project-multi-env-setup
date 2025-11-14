@@ -1,19 +1,25 @@
 variable "instance_count" {
-    default = 1
+    description = "Number of instances"
     type = number
 }
 
 variable "ami" {
-    default = "id-1234qwer5678tyui"
+    description = "Image ID"
     type = string
 }
 
 variable "instance_type" {
-    default = "t2.micro"
+    description = "Instane type"
     type = string
 }
 
 variable "env" {
-    default = "dev"
+    description = "Environment Name"
     type = string
+}
+
+variable "bucket_name" {
+    description = "Name of the bucket"
+    type = string
+
 }
