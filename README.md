@@ -16,7 +16,9 @@ Create multi environment setup (Dev, Prod, Stag) using Custom Terraform Modules
 
 ## Execute commands after all terraform configuration completed:
 
-  terraform init
-  terraform plan
-  terraform apply -auto-approve
+      terraform init
+
+      terraform plan
+
+      terraform apply -auto-approve
 
